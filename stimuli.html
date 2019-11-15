@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Brain NLP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/cayman.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Semantics in human brain and NLP models</h1>
+      <h2 class="project-tagline">Zhang, Wang, Yang, Qian, Wang, Qiu, Zhang, & Tian. Under review (All rights reserved)</h2>
+      <a href="index.html" class="btn">Intro</a>
+      <a href="methods.html" class="btn">Link Brain data with Computer data</a>
+      </br>
+      <a href="stimuli.html" class="btn">Experiment Stimuli</a>
+      <a href="results.html" class="btn">Results</a>
+    </section>
+
+    <section class="main-content">
+        <h1>
+            <a id="" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a>Stimuli </h1>
+
+            <p>Our EEG experiment adopted a canonical two-word priming paradigm, with stimuli visually presented to the participants. We used 240 pairs of two-character Chinese nouns as critical stimuli. We randomly selected nouns to form `prime-target' pairs. Among these `prime-target' word pairs, some pairs (e.g., 月亮 (moon) -- 星星 (star)) are intuitively of a higher semantic similarity than others (e.g., 苹果 (apple) -- 月亮 (moon)).</p>
+
+            <p><img src="img/exp.png" alt=""></p>
+
+            <p>The word categroies and word pairs are listed below:</p>
+
+            <h3>
+                Words in different categories <a href="data/stimuli.xlsx" class="">(Download)</a>
+            </h3>
+            
+            
+            <table>
+              <thead>
+              <tr>
+                <th>Category</th>
+                <th>Words</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+              <td>情感</td><td>愉快 幸福 悲伤 害怕 难过 生气 沮丧 激动 痛苦 困惑 兴奋 嫉妒</td>
+              </tr>
+              <tr>
+              <td>调料</td><td>食盐 胡椒 大蒜 白糖 辣椒 香料 生姜 陈醋 酱油 黄油 咖喱 香草</td>
+              </tr>
+              <tr>
+              <td>职业</td><td>医生 教师 律师 护士 演员 会计 牙医 歌手 秘书 经理 厨师 警察</td>
+              </tr>
+              <tr>
+              <td>体育</td><td>足球 篮球 击剑 垒球 网球 棒球 游泳 台球 排球 拳击 跑步 滑雪</td>
+              </tr>
+              <tr>
+              <td>天气</td><td>冰雹 飓风 雷雨 雪花 大风 洪水 闪电 台风 大雾 暴雨 阳光 打雷</td>
+              </tr>
+              <tr>
+              <td>着装</td><td>衬衫 长裤 袜子 内裤 裤子 内衣 短裤 夹克 毛衣 短裙 外套 西装</td>
+              </tr>
+              <tr>
+              <td>乐器</td><td>大鼓 吉他 长笛 钢琴 小号 黑管 古筝 提琴 长号 圆号 竖琴 琵琶</td>
+              </tr>
+              <tr>
+              <td>交通工具</td><td>汽车 巴士 卡车 飞机 火车 电车 货车 潜艇 轮船 摩托 马车 地铁</td>
+              </tr>
+              <tr>
+              <td>蔬菜</td><td>萝卜 莴苣 生菜 番茄 黄瓜 茄子 南瓜 土豆 芹菜 豌豆 菠菜 洋葱</td>
+              </tr>
+              <tr>
+              <td>昆虫</td><td>苍蝇 蚂蚁 毛虫 蜜蜂 蚊子 甲虫 臭虫 蚂蚱 蝴蝶 螳螂 蜘蛛 飞蛾</td>
+              </tr>
+              <tr>
+              <td>哺乳动物</td><td>斑马 豹子 山羊 狮子 黑熊 老虎 奶牛 大象 麋鹿 野猪 熊猫 松鼠</td>
+              </tr>
+              <tr>
+              <td>鸟类</td><td>鸽子 企鹅 鹦鹉 天鹅 公鸡 翠鸟 乌鸦 孔雀 鸭子 老鹰 海鸥 麻雀</td>
+              </tr>
+              <tr>
+              <td>饮料</td><td>白酒 果汁 香槟 绿茶 红茶 果茶 果酒 米酒 啤酒 牛奶 奶茶 咖啡</td>
+              </tr>
+              <tr>
+              <td>水果</td><td>苹果 梨子 葡萄 橙子 柠檬 香蕉 桃子 草莓 樱桃 菠萝 芒果 西瓜</td>
+              </tr>
+              <tr>
+              <td>食物</td><td>水饺 煎饼 馄饨 馅饼 粽子 布丁 蛋糕 沙拉 面条 米饭 包子 烧卖</td>
+              </tr>
+              <tr>
+              <td>月份</td><td>一月 二月 三月 四月 五月 六月 七月 八月 九月 十月 闰月 农历</td>
+              </tr>
+              <tr>
+              <td>家庭</td><td>爸爸 妈妈 儿子 女儿 哥哥 姐姐 表哥 叔叔 阿姨 表姐 妻子 丈夫</td>
+              </tr>
+              <tr>
+              <td>身体部位</td><td>额头 喉咙 嘴唇 牙齿 手掌 大腿 胳膊 鼻子 手臂 舌头 眼睛 耳朵</td>
+              </tr>
+              <tr>
+              <td>家具</td><td>电视 桌子 椅子 地毯 枕头 沙发 窗帘 台灯 橱柜 抽屉 冰箱 电灯</td>
+              </tr>
+              <tr>
+              <td>景观</td><td>火山 湖泊 河流 沙漠 冰川 小溪 海岸 瀑布 运河 森林 海洋 沙滩</td>
+              </tr>
+              <tr>
+              <td>疾病</td><td>感冒 头痛 疟疾 发烧 癌症 咳嗽 流感 癫痫 肺炎 肿瘤 中风 偏瘫</td>
+              </tr>
+              <tr>
+              <td>方位</td><td>东北 西北 西南 东南 上边 下边 前面 后面 顶部 底部 左边 右边</td>
+              </tr>
+              <tr>
+              <td>衣饰</td><td>项链 香水 皮包 钱包 领带 皮带 戒指 耳环 围巾 手套 帽子 鞋子</td>
+              </tr>
+              <tr>
+              <td>国家</td><td>中国 美国 德国 法国 英国 希腊 印度 埃及 韩国 日本 波兰 泰国</td>
+              </tr>
+              <tr>
+              <td>城市</td><td>北京 纽约 柏林 巴黎 伦敦 雅典 德里 开罗 釜山 东京 华沙 曼谷</td>
+              </tr>
+            </tbody>
+            </table>
+            </thead>
+             
+            
+            <h3>
+                The trials sample <a href="data/trial_list.csv" class="">(Download)</a>.
+            </h3>
+            <pre><code>It is generated by<a href="data/randomly.py" class=""> a python script</a></code></pre>
+
+            <blockquote>
+              <ul>
+                  <li>prime: display first</li>
+                  <li>target: display next</li>
+                  <li>same_category: whether the prime and the target were in the same category</li>
+                  <li>wordness: whether the target is a real word</li>
+                  <li>soa: interval (second) between the prime and target</li>
+                  <li>block: the block ID</li>
+              </ul>
+            </blockquote>
+
+            <table>
+              <thead>
+              <tr>
+              <th>prime</th>
+              <th>target</th>
+              <th>same_category</th>
+              <th>wordness</th>
+              <th>soa</th>
+              <th>block</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+              <td>鸭子</td><td>萄子</td><td>True</td><td>False</td><td>0.15</td><td>1</td>
+              </tr>
+              <tr>
+              <td>西北</td><td>蜜蜂</td><td>False</td><td>True</td><td>0.35</td><td>1</td>
+              </tr>
+              <tr>
+              <td>戒指</td><td>领带</td><td>True</td><td>True</td><td>0.35</td><td>1</td>
+              </tr>
+              <tr>
+              <td>蜘蛛</td><td>德国</td><td>False</td><td>True</td><td>0.15</td><td>1</td>
+              </tr>
+              <tr>
+              <td>螳螂</td><td>翠鸟</td><td>False</td><td>True</td><td>0.15</td><td>1</td>
+              </tr>
+              <tr>
+              <td>激动</td><td>阳光</td><td>False</td><td>True</td><td>0.15</td><td>1</td>
+              </tr>
+              <tr>
+              <td>马车</td><td>火车</td><td>True</td><td>True</td><td>0.15</td><td>1</td>
+              </tr>
+              <tr>
+              <td>松鼠</td><td>豹子</td><td>True</td><td>True</td><td>0.15</td><td>1</td>
+              </tr>
+              <tr>
+              <td>游泳</td><td>滑雪</td><td>True</td><td>True</td><td>0.15</td><td>1</td>
+              </tr>
+              <tr>
+              <td>水饺</td><td>包子</td><td>True</td><td>True</td><td>0.35</td><td>1</td>
+              </tr>
+              <tr>
+              <td>悲伤</td><td>胡球</td><td>True</td><td>False</td><td>0.35</td><td>1</td>
+              </tr>
+              <tr>
+              <td>巴黎</td><td>网帘</td><td>True</td><td>False</td><td>0.15</td><td>1</td>
+              </tr>
+              <tr>
+              <td>二月</td><td>裤子</td><td>False</td><td>True</td><td>0.15</td><td>1</td>
+              </tr>
+              <tr>
+              <td>马车</td><td>地铁</td><td>True</td><td>True</td><td>0.15</td><td>1</td>
+              </tr>
+              <tr>
+              <td>后面</td><td>右边</td><td>True</td><td>True</td><td>0.35</td><td>1</td>
+              </tr>
+              <tr>
+              <td>会计</td><td>经理</td><td>True</td><td>True</td><td>0.15</td><td>1</td>
+              </tr>
+              <tr>
+              <td>女儿</td><td>哥哥</td><td>True</td><td>True</td><td>0.15</td><td>1</td>
+              </tr>
+              <tr>
+              <td>牙齿</td><td>德里</td><td>False</td><td>True</td><td>0.35</td><td>1</td>
+              </tr>
+              <tr>
+              <td>蜘蛛</td><td>内衣</td><td>False</td><td>True</td><td>0.35</td><td>1</td>
+              </tr>
+              <tr>
+              <td>印度</td><td>瀑布</td><td>False</td><td>True</td><td>0.15</td><td>1</td>
+              </tr>
+              <tr>
+              <td>包子</td><td>米饭</td><td>True</td><td>True</td><td>0.35</td><td>1</td>
+              </tr>
+              </tbody>
+              </table>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/ray306/neural_poem">This website</a> is maintained by <a href="https://github.com/ray306">Jinbiao Yang</a>.</span>
+
+        <span class="site-footer-credits">The page template was based on <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a>.</span>
+      </footer>
+
+    </section>
+  </body>
+</html>
+
